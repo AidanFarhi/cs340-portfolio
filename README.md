@@ -22,6 +22,20 @@ By leveraging the same approach, I believe I can successfully tackle more comple
 
 - How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
 
+Part of the project involved creating a Python CRUD module that performed create, read, updated, and delete operations
+against a MongoDB database. To ensure that the module functioned as expected, I tested each operation using
+a Jupyter notebook after importing the module from it's respective Python source code file.
+I was able to validate that each component was functioning as expected, and adjusted as needed.
+Testing components of a software system is highly important to ensure quality and bug-free solutions.
+
 - Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
 
+When considering the entire end-to-end development process, the trickiest part for me was formulating MongoDB queries.
+I had to do a lot of research and review examples in order to translate the requirements into a working query.
+Unfortunately, I did not find the MongoDB docs particularly helpful when it came to straightforward examples.
+Despite this, I was able to successfully build out the required functionality.
+
 - In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+I have used Python quite extensivelly at work, and I think this translated well when it came to creating the Python CRUD module.
+This component of the system I actually found fairly simple to implement and I am happy with the outcome.
