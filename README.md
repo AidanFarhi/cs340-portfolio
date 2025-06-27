@@ -1,41 +1,19 @@
 # Grazioso Salvare Dashboard
 
-- Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+- How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
-Grazioso Salvare needed to identify promising candidates for dog search and rescue training. This project was
-aimed at meeting this need by creating an interactive data visualization dashboard.
+There are several design choices that I make in order to ensure the programs I produce are maintainable, readable, and adatable.
+For example, the CRUD module I developed exposed a Python class that was flexible and generic enough to accept different
+arguments depending on which database and collection the user wanted to interact with.
+Each of the methods had simple names that clearly conveyed their intent. I also made sure each method had a descriptive
+docstring and inline comments which clearly communicated the funcionality of the code.
+By creating all of this in a stand-alone python file, it leaves open the possibility of adapting it separaetly from the
+dasboard code to avoid tight coupling between the back-end and front-end code.
+By implementing the module in such a manner, it allows the code to be leveraged by a variety of components, whether they
+be dashboards, APIs, or CLI tools.
 
-- What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+- How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
 
-The main screens included in the project were a data table showing various attributes of animals within shelters,
-an interative map showing the location of animals, and a pie chart showing the distribution of breeds.
-The dashboard featured a dropdown which allowed users to filter based on the rescue category.
-It also allowed users to select individual records of the data table and see the location of each record on the
-map component.
-Overall, the design succesfully provided an interactive way for users to query and visualize data.
+As a computer scientist, I
 
-- How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
-
-While creating the project, I approached everything in an iterative fashion. I started with a small peice of the required functionality, tested it, and then
-moved on the the next piece. This ensured each individual modlue of the project was working as I expanded the components and features.
-By leveraging the same approach, I believe I can successfully tackle more complex projects create working software.
-
-- How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
-
-Part of the project involved creating a Python CRUD module that performed create, read, updated, and delete operations
-against a MongoDB database. To ensure that the module functioned as expected, I tested each operation using
-a Jupyter notebook after importing the module from it's respective Python source code file.
-I was able to validate that each component was functioning as expected, and adjusted as needed.
-Testing components of a software system is highly important to ensure quality and bug-free solutions.
-
-- Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
-
-When considering the entire end-to-end development process, the trickiest part for me was formulating MongoDB queries.
-I had to do a lot of research and review examples in order to translate the requirements into a working query.
-Unfortunately, I did not find the MongoDB docs particularly helpful when it came to straightforward examples.
-Despite this, I was able to successfully build out the required functionality.
-
-- In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
-
-I have used Python quite extensivelly at work, and I think this translated well when it came to creating the Python CRUD module.
-This component of the system I actually found fairly simple to implement and I am happy with the outcome.
+- What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
