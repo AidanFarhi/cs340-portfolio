@@ -25,5 +25,5 @@ I would break down the requirements and develop a data model that could support 
 Computer scientists leverage their knowledge of computers to develop products and solve problems. By doing so,
 they help generate revenue for businesses and advance the state of society as a whole. This usually involves
 setting up software infrastructure, writing programs, and managing databases and servers, sometimes within a cloud platform.
-I would attempt to create data-driven solutions for companies which would allow them to manage their information.
-Specifically, dashboards that help users analyze their organization's data.
+Projects like this provide data-driven solutions for companies which allow them to manage information.
+Specifically, dashboards that help users analyze, understand, and act upon data.
